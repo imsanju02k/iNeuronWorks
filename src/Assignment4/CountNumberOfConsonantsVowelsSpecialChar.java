@@ -24,8 +24,6 @@ public class CountNumberOfConsonantsVowelsSpecialChar {
             else if(ch=='$'||ch=='#'||ch=='/'||ch=='%'||ch=='*'||ch=='@'||ch=='!'){
                 special_chars++;
             }
-
-
         }
         System.out.println("the number of vowels are present in the input string : " + vowels);
         System.out.println("the number of consonants are present in the input string : " + consonants);
