@@ -8,7 +8,7 @@ public class FindMaxOccurringChar {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Input String : ");
         String st=sc.next();
-        System.out.println("the Max of the duplicate string : ");
+        System.out.println("the maxOccurringChar are below  : ");
         char ch[]=st.toCharArray();
         int count;
         for (int i=0;i<ch.length;i++){
@@ -22,6 +22,7 @@ public class FindMaxOccurringChar {
             if(count>1 && ch[i]!=0){
                 System.out.print(ch[i]);
             }
+
             }
     }
 }
